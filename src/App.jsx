@@ -14,6 +14,7 @@ import DashboardSection from './components/Dashboard'
 import OffersPage from './components/Offers'
 import Subscription from './components/Subscription'
 import Contact from './components/Contact'
+import Features from './components/Fetaures'
 
 function App() {
  
@@ -32,6 +33,7 @@ function App() {
 
 
         <Route path="/subscribe" element={<Subscription/>}/>
+        <Route path="/features" element={<Features/>}/>
        
 
        <Route path="/error"  element={<Error/>}/>
@@ -41,4 +43,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
